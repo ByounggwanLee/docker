@@ -1,0 +1,1 @@
+docker run --detach --hostname gitlab.lbg.com  --publish 9080:80 --name gitlab --restart always --volume d:\docker\mount\gitlab\config:/etc/gitlab --volume d:\docker\mount\gitlab\logs:/var/log/gitlab --volume d:\docker\mount\gitlab\data:/var/opt/gitlab gitlab/gitlab-ce:latest
